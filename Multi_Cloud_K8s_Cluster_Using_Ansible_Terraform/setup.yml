@@ -43,7 +43,7 @@
    - debug:
           var: azureinstance.stdout_lines
    
-   - name: "Configuring Kubernetes Masternode on AWS Cloud Dynamically"
+   - name: "Retriving Public ip of the kubernetes masternode of aws"
      command: "chdir=./k8s_master_aws ansible-playbook publicip.yml"
 
 
